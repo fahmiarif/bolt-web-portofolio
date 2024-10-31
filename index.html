@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="cursor"></div>
+    
+    <nav>
+        <div class="nav-content">
+            <div class="logo animate-text">JD</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="animate-link">Home</a></li>
+                <li><a href="#projects" class="animate-link">Projects</a></li>
+                <li><a href="#skills" class="animate-link">Skills</a></li>
+                <li><a href="#contact" class="animate-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="typing-text"></h1>
+            <h2 class="fade-in">Software Developer</h2>
+            <p class="fade-in">Building elegant solutions to complex problems</p>
+            <div class="scroll-indicator">
+                <div class="mouse"></div>
+                <p>Scroll Down</p>
+            </div>
+        </div>
+        <div class="particles"></div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="reveal">Projects</h2>
+        <div class="project-grid">
+            <div class="project-card reveal">
+                <div class="project-icon"><i class="fas fa-code"></i></div>
+                <h3>Project 1</h3>
+                <p>A full-stack web application built with modern technologies.</p>
+                <div class="tech-stack">
+                    <span>React</span>
+                    <span>Node.js</span>
+                    <span>MongoDB</span>
+                </div>
+            </div>
+            <div class="project-card reveal">
+                <div class="project-icon"><i class="fas fa-mobile-alt"></i></div>
+                <h3>Project 2</h3>
+                <p>Mobile-first responsive website with modern UI/UX.</p>
+                <div class="tech-stack">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2 class="reveal">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category reveal">
+                <h3>Frontend</h3>
+                <ul class="skill-list">
+                    <li><i class="fab fa-html5"></i> HTML5</li>
+                    <li><i class="fab fa-css3-alt"></i> CSS3</li>
+                    <li><i class="fab fa-js"></i> JavaScript</li>
+                    <li><i class="fab fa-react"></i> React</li>
+                </ul>
+            </div>
+            <div class="skill-category reveal">
+                <h3>Backend</h3>
+                <ul class="skill-list">
+                    <li><i class="fab fa-node-js"></i> Node.js</li>
+                    <li><i class="fab fa-python"></i> Python</li>
+                    <li><i class="fas fa-database"></i> SQL</li>
+                    <li><i class="fas fa-server"></i> MongoDB</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="reveal">Contact Me</h2>
+        <div class="contact-info">
+            <a href="mailto:john@example.com" class="contact-link reveal">
+                <i class="fas fa-envelope"></i>
+                <span>john@example.com</span>
+            </a>
+            <a href="https://github.com" target="_blank" class="contact-link reveal">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+            </a>
+            <a href="https://linkedin.com" target="_blank" class="contact-link reveal">
+                <i class="fab fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 John Doe. All rights reserved.</p>
+    </footer>
+
+    <script src="animations.js"></script>
+    <script src="cursor.js"></script>
+</body>
+</html>
